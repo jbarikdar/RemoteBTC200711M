@@ -1,0 +1,10 @@
+<suite name="smoke" >
+	<test name="coreTest">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter ></parameter>
+		<classes>
+			<class name="com.bit.test.SmokeTest" />
+			<class name="com.bit.test.Regression" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

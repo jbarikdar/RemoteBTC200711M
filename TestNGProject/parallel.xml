@@ -1,0 +1,23 @@
+<suite name="smoke" parallel="methods">
+<test name ="coreTest">
+<groups>
+<run>
+<include name="smoke"></include>
+</run>
+</groups>
+
+<packages>
+<package name="com.bit.test"></package>
+</packages>
+<classes>
+for every test 
+<Class name="com.bit.test.Regression"></Class> 
+<Methods>
+<include name="test2"></include>
+</Methods>
+</classes>
+
+</test>
+
+
+</suite>
